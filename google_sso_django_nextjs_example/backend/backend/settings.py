@@ -131,5 +131,5 @@ AUTH_USER_MODEL = "accounts.User"
 CORS_ORIGIN_ALLOW_ALL = True
 
 
-GOOGLE_CLIENT_ID = "720360291131-q6ep2vl8rv3gmb892igdhpm9uuiq2vcv.apps.googleusercontent.com"
-SOCIAL_SECRET = "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"
+GOOGLE_CLIENT_ID = "<Google ClientId"
+SOCIAL_SECRET = "Google Client Secret"

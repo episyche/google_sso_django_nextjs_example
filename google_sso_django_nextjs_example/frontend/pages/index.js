@@ -15,7 +15,7 @@ export default function Home({ providers }) {
 
     }
 
-  }, [session])
+  }, [session?.auth_token])
   function backendapi(auth_token) {
     // var tag = document.getElementById("user_token").innerHTML = auth_token
     fetch(`http://127.0.0.1:8000/accounts/google/`, {
